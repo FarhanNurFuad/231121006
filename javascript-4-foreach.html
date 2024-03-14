@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perulangan - forEach</title>
+</head>
+<body>
+    <script>
+        var days = ["Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu", "Minggu"];
+        
+        // dengan menggunakan method in
+        for(i in days){
+            document.write("<p>" + days[i] + "</p>");
+        }
+        // dengan menggunakan method foreach
+        days.forEach(function(day){
+            document.write("<p>" + day + "</p>");
+        });
+    </script>
+</body>
+</html>
